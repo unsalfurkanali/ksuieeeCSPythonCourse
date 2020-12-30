@@ -1,0 +1,66 @@
+Soru -1
+-------
+
+Klavyeden girilen bir tam sayıyı analiz edin. Eğer sayı asal ise asal olduğunu ekrana bastırın.
+Eğer asal değil ise sayının tam bölenlerini bir liste içerisine atayın ve for döngüsü ile
+ekrana yazıdırın.
+----------------------------------------------------------------------------------
+
+
+Soru -2
+-------
+
+
+Bir öğrenci kayıt programı yazılacak. Kullanıcıdan alınan veriler bir listede tutulacak.
+Öğrencinin girmesi gereken aşağaıdaki verileri alarak listeye ekleyin:
+->Öğrenci adı
+->Öğrenci soyadı
+->Öğrenci numarası
+->Öğrencinin bölümü
+->Öğrencinin sınıfı
+->Öğrencinin not ortalaması
+
+Tüm bu verilerin bir liste içerisine atayın ve sıralı bir şekilde ekrana yazdırın.
+
+----------------------------------------------------------------------------------
+
+
+Soru -3
+
+Klavyeden rastgele girilen 20 adet sayıyı öncelikle bir listeye kayıt edin. 
+Girilen sayıları sıralamak için bir kabarcık sıralama algoritması(bubble sorting) yazın. 
+Klavyeden sayı alma işlemini 20'li bir for döngüsü içinde yapın. Alt alta 20 tane input yazmak
+pek hoş görünmeyecektir. 
+
+bubble sorting algoritması:
+------------------------------
+Kabarcık sıralaması ismini küçük değerlerin suyun içindeki kabarcıklar gibi en üste, büyük 
+değerlerin ise en dibe inecek şekilde çalışmasıdır. Teknik, dizi içinde çeşitli geçişler
+yapmaktır. Her geçişte seçilen eleman çifti (yani 0.index ile 1.index veya 1.index ile 2.index
+şeklinde sıralı ikiler) birbiri ile karşılaştırılır. küçük olan eleman sol tarafta yani listenin
+daha küçük index numarasına aktarılır. Yani şu şekilde n elemanlı bir a listesi için şu şekilde
+karşılaştırmalar yapılır: 
+
+a[0] ile a[1] karşılaştırılır. Eğer a[1]<a[0] ise a[0] ile a[1] yer değiştirilerek a[0]<a[1]
+eşitsizliği sağlanmaya çalışılır. Ardından döngü bir sonraki çifti karşılaştırır:
+a[1] ile a[2], Eğer a[2]<[1] ise a[1] ile a[2] yer değiştirilir. Bu şekilde n. indexe kadar 
+ilk seferde bütün ikililer sıralanır. Ancak bu işlemin dizinin eleman sayısı olan n kadar tekrar
+etmesi ve bütün sayıları sıralaması beklenir. Burada iç içe döngüler ile bu durum kolaylıkla sağlanır.
+
+Bu örnek sizi biraz zorlayacak ama elinizi kirletmekten çekinmeyin ve internetten hazır kod
+arayıp çalıştırmayın. Ancak eğer çalışma algoritmasını anlamadıysanız çeşitli animasyonlar 
+izleyerek algoritmayı çözebilirsiniz. Hazır kodlar ilerleme sağlar bazen ancak temel düzeyde bazı
+şeyleri öğrenirken biraz elimizi kirletmekte fayda var :) 
+
+----------------------------------------------------------------------------------
+
+Soru -4
+-------
+
+Klavyeden 20 tane rastgele sayı alın ve bu sayıları bir liste içerisine atayın. Ardından bu 
+sayıları ile listenin;
+
+Modunu (En çok tekrar eden değeri)
+Ortalamasını
+Ve bir önceli örnekteki bubble sort ile sıraladığınızda oluşan yeni liste ile medyanını(eğer soru3'ü
+yapamadıysanız listeler bölümünde gösterdiğim liste.sort() fonksiyonunu kullanabilirsiniz)
