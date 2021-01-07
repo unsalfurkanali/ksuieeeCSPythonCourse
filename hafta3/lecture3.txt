@@ -1,0 +1,41 @@
+##Lecture-3
+1.5.21
+IEEE CS Python Programming Course
+
+Fonksiyonlar
+------------
+
+Fonksiyonlar, programlamada belli işlevleri ve (ihtiyaç durumunda)giriş,
+çıkış parametresi olan ve tekrar tekrar kullanılabilen program bölümleri;kod bloklarıdır. Rutin olarak tekrarlanan veya
+kısa görevi olan bazı kod parçalarını burada ayrıca yazarak daha kullanışlı ve modüler bir programlama yapabiliriz.
+
+Her fonksiyonun bir adı varsa alacağı parametre(ler) ve yapması gereken bir işlem bulunur.
+Bir fonksiyon tanımlarken şu şekilde bir yapı kullanırız:
+
+def functionName(parameters):
+    #Fonksiyon Bloğu (Yapılacak İşlemler)
+    #Eğer varsa geri dönüş ifadesi (return ile birlikte)
+
+Burada belli bazı kurallar vardır:
+*Fonksiyon adı daha önce tanımlanmış bir isimde olmamalı
+*Fonksiyon adı değişken isim kurallarına uyumlu olmalı
+*Her fonksiyonun yanında parametre olmasa dahi parantez bulunmalıdır.
+
+*Varsayılan değerli parametre kullanılabilir.
+
+*Pythonda genel ifade ile iki tip fonksiyon vardır; birisi gömülü fonksiyon(builtin) diğeri ise özel fonksyion(custom)
+
+*Pythonda kullanılan bir fonksiyonu matematikteki fonksiyon anlojisine benzetebilir. Matematikte bir fonksiyonun
+tanımlı olduğu aralık, görüntü ve değer kümesi, değişkeni(leri) ve bir adet çıktısı vardır. Örneğin kare alan bir
+fonksiyon düşünelim:
+
+f:R->Z
+f(x) = x^2
+
+Bunu python ile gerçeklemek istediğimizde basitçe şu şekilde yazabiliriz:
+
+def f(x):
+    return x**2
+
+
+*Fonksiyonlara esnek sayıda argüman verebiliriz.

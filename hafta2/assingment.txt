@@ -60,6 +60,7 @@ Soru -4
 Klavyeden 20 tane rastgele sayı alın ve bu sayıları bir liste içerisine atayın. Ardından bu 
 sayıları ile listenin;
 
+
 Modunu (En çok tekrar eden değeri)
 Ortalamasını
 Ve bir önceli örnekteki bubble sort ile sıraladığınızda oluşan yeni liste ile medyanını(eğer soru3'ü

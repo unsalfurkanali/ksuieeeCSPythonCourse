@@ -1,0 +1,30 @@
+Soru-1 
+------
+
+Girilen bir sayının faktoriyelini hesaplayan bir fonksiyon yazın. Bu fonksiyonu kullanarak
+1-100 arası sayıların faktoriyelini ekrana bastırın. 
+İpucu: 5! = 5.4! şeklinde yazılabiliyor. Burada fonksiyonun içinde fonksiyonun kendisini
+çağırmamız gerek gibi görünüyor. 
+
+----------------------------------------------------------------------------------
+
+Soru-2
+------
+
+Soru-1'de yazdığınız faktoriyel fonksiyonu ile girilen iki sayının permütasyonu ve 
+kombinasyonunu hesaplayan iki fonksiyon daha yazın. Permütasyon ve kombinasyonu hesaplayan
+fonksiyonun içinde daha önceden yazdığınız faktoriyel fonksiyonu ilgili sayılar için çağırın
+ve hesaplanan değeri geri çevirin. 
+Permütasyon ve kombinasyon hesaplanırken çeşitli matematiksel kuralları gözden geçirmeyi unutmayın
+bunları kontrol eden if elif yapısı kullanabilirsiniz. 
+
+
+Soru-3
+------
+
+Rakamları toplamına tam bölünen sayılara Harshad Sayısı denir. 
+Örneğin 24, 2+4=6 ve 24%6=0 olduğunundan 24 bir Harshad sayısıdır. Buna göre 200,000'e 
+kadar kaç tane Harshad sayısı vardır?
+İpucu: Sayıları önce str'ye çevirip rakamlarını tek tek int'e çevirerek bir döngü içerisinde
+toplayabilirsiniz. 
+
